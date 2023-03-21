@@ -35,8 +35,8 @@
 
                         }
                     </script>
-                    <button class="tombol" onclick="display()"></button>
-                    <button class="tombol" onclick="display()"></button>
+                    <button class="tombol" onclick="display('alert')"></button>
+                    <button class="tombol" onclick="display('alert')"></button>
 
 
 
@@ -66,6 +66,9 @@
 
             } else if (a == 'action') {
                 result.value = eval(result.value)
+
+            } else if (a == 'alert') {
+                alert('itu tombol kosong bego')
 
 
             } else {
