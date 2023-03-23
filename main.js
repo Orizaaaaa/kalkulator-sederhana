@@ -11,7 +11,7 @@ const display = (a) => {
         result.value = eval(result.value)
 
     } else if (a == 'alert') {
-        alert('itu tombol kosong bego')
+        alert('itu tombol kosong bego 🐷')
 
 
     } else {
